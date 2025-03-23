@@ -193,6 +193,52 @@ body{
     text-align: center;
 }
 
+.contactUs{
+    width: 60%;
+    height: 700px;
+    background-color: rgb(1, 1, 31);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 20%;
+}
+.contactForm{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contactForm input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contactForm button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.contactForm textarea{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
 
 
 @media screen and (max-width:700px) {
